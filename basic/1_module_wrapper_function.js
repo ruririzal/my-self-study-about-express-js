@@ -1,4 +1,4 @@
-// run this file : node basic/1-module-wrapper-function
+// run this file : node basic/1_module_wrapper_function
 
 // variabel : exports, require, module, __filename, __dirname
 // akan selalu berjalan dahulu difile ini ketika file di running
