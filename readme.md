@@ -20,4 +20,7 @@ Install devDependencies nodemon untuk mengawasi perubahan koding yang dilakukan 
 kemudian tambahkan di package.json 
 ``"scripts": { "dev": "  nodemon ./bin/www" }, ``
 untuk menjalankan
-``npm run dev``
+``npm run dev`` atau ``set DEBUG=express-js:* | npm run dev``
+
+Add uuid depedencies
+``npm i uuid``
