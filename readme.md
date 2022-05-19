@@ -14,3 +14,10 @@ Routing (https://expressjs.com/en/guide/routing.html)
 
 Template push progress
 ``git add . | git commit -m '' | git push main``
+
+Install devDependencies nodemon untuk mengawasi perubahan koding yang dilakukan agar tidak selalu merestart server. 
+``npm i -D nodemon``
+kemudian tambahkan di package.json 
+``"scripts": { "dev": "  nodemon ./bin/www" }, ``
+untuk menjalankan
+``npm run dev``
