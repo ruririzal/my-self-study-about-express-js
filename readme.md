@@ -45,4 +45,5 @@ kemudian tambahkan di package.json
 
 + Database in cloud server use mongodb -> create cluster -> SECURITY/create db access user -> SECURITY/ set network access server -> Deployment/database connect to application
 
-+ Google cloud platform console -> create project -> Api&Service/ Enable api & service -> Enable 'Google+ API' -> Add OAuth Consent Screen -> create Credentials (OAuth client ID) to get user consern then use their data -> [add redirect uri]() http://localhost:3000/auth/google/callback
++ Google cloud platform console -> create project -> Api&Service/ Enable api & service -> Enable 'Google+ API' -> Add OAuth Consent Screen -> create Credentials (OAuth client ID) to get user consern then use their data -> add redirect uri to http://localhost:3000/auth/google/callback
+

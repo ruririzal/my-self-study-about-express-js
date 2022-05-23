@@ -4,6 +4,7 @@
   "private": true,
   "description": "my log progress study node especially expressjs",
   "author": "Ruri Rizal",
+  "type": "commonjs",
   "scripts": {
     "start": "cross-env NODE_ENV=production node ./bin/www",
     "dev": "cross-env NODE_ENV=development nodemon ./bin/www"
