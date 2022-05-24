@@ -4,9 +4,15 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const connectDB = require('./config/db');
+const passport = require('passport')
+const session = require('express-session')
 
 // Load Config
 dotenv.config({path: './config/config.env'})
+
+// Passport config
+require('./config/passport')(passport)
+
 connectDB();
 
 const app = express();
@@ -23,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // routes
 app.use('/', require('./routes/index'));
+app.use('/auth', require('./routes/auth'));
 app.use('/api/users', require('./routes/users'));
 
 module.exports = app;
