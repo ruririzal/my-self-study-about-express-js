@@ -1,10 +1,14 @@
 const express = require('express');
 const router = express.Router();
+const { ensureAuth, ensureGuest } = require('../middleware/auth')
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Expdress' });
-});
+// @desc    Login/Landing page
+// @route   GET /
+router.get('/', ensureGuest, (req, res) => {
+  res.render('index', {
+    title: 'sudah login',
+  })
+})
 router.get('/ab*cd', (req, res) => {
   res.send('ab*cd')
 })
