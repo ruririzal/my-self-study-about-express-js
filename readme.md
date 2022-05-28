@@ -15,9 +15,15 @@ Running Skeleton App
 Routing (https://expressjs.com/en/guide/routing.html)
 
 Template push progress
-``git add . | git commit -m '' | git push main``
-``cd .. | cd "my-self-study-about-express-js.wiki" | gt add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"``
-``git add . | git commit -m '' | git push main | cd .. | cd "my-self-study-about-express-js.wiki" | gt add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"``
+```
+git add . | git commit -m '' | git push main
+```
+```
+cd .. | cd "my-self-study-about-express-js.wiki" | gt add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"
+```
+```
+git add . | git commit -m '' | git push main | cd .. | cd "my-self-study-about-express-js.wiki" | gt add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"
+```
 
 Install devDependencies nodemon untuk mengawasi perubahan koding yang dilakukan agar tidak selalu merestart server. 
 ``npm i -D nodemon``
