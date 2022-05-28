@@ -16,6 +16,8 @@ Routing (https://expressjs.com/en/guide/routing.html)
 
 Template push progress
 ``git add . | git commit -m '' | git push main``
+``cd .. | cd "my-self-study-about-express-js.wiki" | gt add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"``
+``git add . | git commit -m '' | git push main | cd .. | cd "my-self-study-about-express-js.wiki" | gt add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"``
 
 Install devDependencies nodemon untuk mengawasi perubahan koding yang dilakukan agar tidak selalu merestart server. 
 ``npm i -D nodemon``
@@ -47,3 +49,4 @@ kemudian tambahkan di package.json
 
 + Google cloud platform console -> create project -> Api&Service/ Enable api & service -> Enable 'Google+ API' -> Add OAuth Consent Screen -> create Credentials (OAuth client ID) to get user consern then use their data -> add redirect uri to http://localhost:3000/auth/google/callback
 
++ [History about mongoose-v6.3.4 in this study log](https://github.com/ruririzal/my-self-study-about-express-js/wiki/Mongoose-v6.3.4)
