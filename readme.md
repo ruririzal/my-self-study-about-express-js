@@ -19,10 +19,10 @@ Template push progress
 git add . | git commit -m '' | git push main
 ```
 ```
-cd .. | cd "my-self-study-about-express-js.wiki" | gt add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"
+cd .. | cd "my-self-study-about-express-js.wiki" | git add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"
 ```
 ```
-git add . | git commit -m '' | git push main | cd .. | cd "my-self-study-about-express-js.wiki" | gt add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"
+git add . | git commit -m '' | git push main | cd .. | cd "my-self-study-about-express-js.wiki" | git add . | | git commit -m '' | git push | cd .. | cd "my-self-study-about-express-js"
 ```
 
 Install devDependencies nodemon untuk mengawasi perubahan koding yang dilakukan agar tidak selalu merestart server. 
