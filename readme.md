@@ -16,10 +16,10 @@ Routing (https://expressjs.com/en/guide/routing.html)
 
 Template push progress
 ```
-git add . | git commit -m '' | git push main
+git add . | git commit -m '' | git push
 ```
 ```
-cd ".\p\my-self-study-about-express-js.wiki" | git add . | git commit -m '' | git push | cd ".\p\my-self-study-about-express-js"
+cd "..\my-self-study-about-express-js.wiki" | git add . | git commit -m '' | git push | cd "..\my-self-study-about-express-js"
 ```
 ```
 git add . | git commit -m '' | git push main | cd ".\p\my-self-study-about-express-js.wiki" | git add . | git commit -m '' | git push | cd ".\p\my-self-study-about-express-js"
